@@ -5,12 +5,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sarthak Yadav — Engineer &amp; Developer</title>
-  <link rel="stylesheet" href="./assets/css/final_output.css" />
+  <link rel="stylesheet" href="./assets/css/output.css" />
 </head>
 
 <body class="bg-void text-[#fffdf1] antialiased">
 
-  <section id="home" class="relative h-[120vh] w-full overflow-hidden">
+  <section id="home" class="relative h-[120vh] w-full overflow-hidden exit">
 
     <!-- Background atmosphere -->
     <div class="absolute inset-0 -z-20 bg-cover bg-center opacity-100"
@@ -21,11 +21,11 @@
     <!-- Monolith: absolutely positioned so it is never squeezed by the text columns -->
 
     <img src="./assets/imgs/Obelisk.png" alt="" aria-hidden="true"
-      class="hero-image absolute left-[calc(50%+70px)] top-[-50px] -z-10 h-[78vh] min-h-[420px] w-auto max-w-none -translate-x-1/2 opacity-95 sm:h-[85vh] lg:h-[92vh] scale-[2]" />
+      class="fade hero-image absolute left-[calc(50%+70px)] top-[-50px] -z-10 h-[78vh] min-h-[420px] w-auto max-w-none -translate-x-1/2 opacity-95 sm:h-[85vh] lg:h-[92vh] scale-[2]" />
 
     <header class="relative z-10">
       <nav aria-label="Primary"
-        class="mx-auto flex max-w-4xl flex-wrap items-center justify-center gap-x-14 gap-y-10 px-6 pt-14 uppercase tracking-[0.25em] text-[clamp(0.5rem,1.4vw,0.8rem)] bg-gradient-to-b from-[#171717] to-transparent">
+        class="fade-down mx-auto flex max-w-4xl flex-wrap items-center justify-center gap-x-14 gap-y-10 px-6 pt-14 uppercase tracking-[0.25em] text-[clamp(0.5rem,1.4vw,0.8rem)] bg-gradient-to-b from-[#171717] to-transparent">
         <a href="#home" class="transition-none hover:text-glyph">Home</a>
         <a href="#about" class="transition-none hover:text-glyph">About</a>
         <a href="#skills" class="transition-none hover:text-glyph">Skills</a>
@@ -40,10 +40,10 @@
       <!-- Name lockup -->
       <div class="relative flex flex-1 flex-col justify-center py-10 mt-8 pointer-events-none">
         <h1 class="font-display leading-[0.85] tracking-tight">
-          <span class="block text-glyph text-[clamp(4rem,10vw,10rem)]">
+          <span class="block text-glyph text-[clamp(4rem,10vw,10rem)] fly-left">
             SARTHAK
           </span>
-          <span class="mt-4 block text-right text-[#fffdf1] sm:mt-6 lg:mt-10 text-[clamp(4rem,10vw,10rem)]">
+          <span class="mt-4 block text-right text-[#fffdf1] sm:mt-6 lg:mt-10 text-[clamp(4rem,10vw,10rem)] fly-right">
             YADAV
           </span>
         </h1>
@@ -51,7 +51,7 @@
 
       <!-- Role + description -->
       <div class="flex flex-col gap-8 sm:flex-row sm:justify-between sm:items-end w-full mt-4">
-        <div class="max-w-md mt-4">
+        <div class="max-w-md mt-4 fade-up">
           <h2 class="font-display text-2xl tracking-wide text-[#fffdf1] sm:text-3xl">
             Engineer &amp; Developer
           </h2>
@@ -64,7 +64,7 @@
             meaningful problems, and create experiences people remember.
           </p>
         </div>
-        <div class="flex flex-col gap-4 items-stretch sm:items-end justify-center">
+        <div class="flex flex-col gap-4 items-stretch sm:items-end justify-center fade-r">
           <a href="#projects" class="btn-primary">
             View My Projects
             <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
@@ -91,24 +91,24 @@
 
 
   <!-- THIS IS THE ABOUT SECTION-->
-  <section id="about" class="px-6 py-16 sm:px-10 sm:py-20 md:px-16 lg:px-24 xl:px-32 lg:py-24">
+  <section id="about" class="px-6 py-16 sm:px-10 sm:py-20 md:px-16 lg:px-24 xl:px-32 lg:py-24 exit2">
     
     <div class="mx-auto grid w-full max-w-6xl grid-cols-1 lg:grid-cols-2 lg:items-center relative gap-20 mb-10">
 
       <!-- Left: Heading + Photo -->
       <div class="relative heading-section text-[#fffdf1] w-full lg:w-[60%]">
-        <p class="tracking-tight text-[clamp(2rem,10vw,4rem)]">01</p>
-        <h2 class="leading-none tracking-tight text-[clamp(2rem,10vw,4rem)] mb-4">
+        <p class="tracking-tight text-[clamp(2rem,10vw,4rem)] abt-fly-l">01</p>
+        <h2 class="leading-none tracking-tight text-[clamp(2rem,10vw,4rem)] mb-4 abt-fly-l">
           About Me
         </h2>
-        <span class="mb-10">Learning by Building. Growing by Creating.</span>
+        <span class="mb-10 about-subtitle abt-fly-r">Learning by Building. Growing by Creating.</span>
 
         <div class="relative w-full sm:w-4/5 lg:w-[40vw]">
           <!-- Glow -->
           <div class="absolute inset-0 -z-10 rounded-full bg-gradient-to-br from-[#F2E7C9]/10 to-[#59C749]/10 blur-3xl  parallax-2">
           </div>
 
-          <img src="./assets/imgs/my-img-2.png" alt="Portrait of Sarthak Yadav" class="my-img relative z-0 pointer-events-none max-w-full h-auto" />
+          <img src="./assets/imgs/my-img-2.png" alt="Portrait of Sarthak Yadav" class="abt-fade-up my-img relative z-0 pointer-events-none max-w-full h-auto" />
 
           <!-- Description card overlapping photo -->
           <div class="relative z-10 -mt-12 ml-50 w-md rounded-xl p-5 glass tilt">
@@ -121,13 +121,13 @@
 
       <!-- Right: Info -->
       <div class="flex flex-col items-start gap-6 lg:items-end lg:text-left w-full">
-        <div class="p-5 w-full flex flex-col items-end rounded-md bg-gradient-to-r from-[#171717] to-[#fffdf1]/30">
+        <div class="p-5 w-full flex flex-col items-end rounded-md bg-gradient-to-r from-[#171717] to-[#fffdf1]/30 abt-fly-quote">
           <h2 class="heading-section text-sm tracking-wide text-zinc-300 italic font-medium">"The best way to learn is
             to build."</h2>
         </div>
 
 
-        <div class="w-full p-5 flex flex-col gap-1 text-mist sm:text-[0.95rem] justify-center items-start tilt">
+        <div class="w-full p-5 flex flex-col gap-1 text-mist sm:text-[0.95rem] justify-center items-start tilt abt-fade-up">
           <div class="parallax-3">
             <h3 class="heading-section text-3xl text-[#59C749]">Sarthak Yadav</h3>
             <h2 class="text-sm text-[#59C749]/60 mb-4">Building intelligent systems through
@@ -151,13 +151,13 @@
         </div>
 
         <a href="./assets/resume.pdf"
-          class=" btn-primary flex-row justify-between gap-4 rounded-md bg-gradient-to-r from-green-600 to-black-100 px-8 py-3 font-semibold text-[#fffdf1] font-black">
+          class="btn-primary flex-row justify-between gap-4 rounded-md bg-gradient-to-r from-green-600 to-black-100 px-8 py-3 font-semibold text-[#fffdf1] font-black">
           Download Resume<svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M5.25589 16C3.8899 15.0291 3 13.4422 3 11.6493C3 9.20008 4.8 6.9375 7.5 6.5C8.34694 4.48637 10.3514 3 12.6893 3C15.684 3 18.1317 5.32251 18.3 8.25C19.8893 8.94488 21 10.6503 21 12.4969C21 14.0582 20.206 15.4339 19 16.2417M12 21V11M12 21L9 18M12 21L15 18" stroke="#fffdf1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
         </a>
 
-        <ul class="flex gap-6 mt-2 mb-2">
+        <ul class="flex gap-6 mt-2 mb-2 about-right">
           <li>
             <a href="https://github.com/yourusername" aria-label="GitHub"
               class="flex h-10 w-10 items-center justify-center rounded-full bg-neutral-800 text-neutral-300">
@@ -228,12 +228,12 @@
 
 
   <!-- THIS IS THE SKILLS SECTION OF MY WEBSITE -->
-  <section id="skills" class="px-6 py-16 text-[#fffdf1] md:px-12 lg:px-20 max-w-7xl mx-auto">
+  <section id="skills" class="px-6 py-16 text-[#fffdf1] md:px-12 lg:px-20 max-w-7xl mx-auto exit3">
     <div class="mx-auto grid max-w-7xl grid-cols-1 gap-12 lg:grid-cols-[1fr_300px]">
 
       <!-- ============ LEFT: BENTO SKILLS GRID ============ -->
       <div>
-        <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-3 skill-fly-l">
 
           <!-- CSS3 -->
           <article class="rounded-2xl  bg-white/[0.02] p-8 skill-card tilt">
@@ -392,16 +392,16 @@
 
       <!-- ============ RIGHT: SIDEBAR ============ -->
       <aside class="lg:border-l lg:border-white/10 lg:pl-10 py-8">
-        <p class="text-[clamp(2rem,10vw,5rem)] leading-none heading-section">02</p>
-        <h2 class="text-[clamp(2rem,10vw,5rem)] leading-none heading-section">Skills</h2>
+        <p class="text-[clamp(2rem,10vw,5rem)] leading-none heading-section skill-fly-r">02</p>
+        <h2 class="text-[clamp(2rem,10vw,5rem)] leading-none heading-section skill-fly-r">Skills</h2>
         <div class="mt-3 h-1 w-14 bg-[#59c740]"></div>
 
-        <h3 class="mt-8 text-lg font-bold text-[#59c740]">Web Development</h3>
-        <p class="mt-3 text-sm leading-relaxed text-[#fffdf1]/50">
+        <h3 class="mt-8 text-lg font-bold text-[#59c740] skill_fade">Web Development</h3>
+        <p class="mt-3 text-sm leading-relaxed text-[#fffdf1]/50 skill_fade">
           Building responsive, high-performance websites and applications with modern technologies.
         </p>
 
-        <ul class="mt-8 space-y-4 border-l border-[#59c740]/30 pl-4">
+        <ul class="mt-8 space-y-4 border-l border-[#59c740]/30 pl-4 skill_fade">
           <li class="flex items-center gap-2 text-sm text-[#fffdf1]/70">
             <svg viewBox="0 0 24 24" class="h-3.5 w-3.5 shrink-0 text-[#59c740]" fill="none" stroke="currentColor"
               stroke-width="2">
@@ -448,15 +448,15 @@
 
 
   <!-- THIS IS MY PROJECTS SECTION-->
-<section id="projects" aria-labelledby="skills-heading" class="max-w-5xl mx-auto px-6 py-16 sm:py-20">
+<section id="projects" aria-labelledby="skills-heading" class="max-w-5xl mx-auto px-6 py-16 sm:py-20 exit4">
 
   <!-- Section header -->
   <header class="mb-10">
-    <p class="heading-section mb-2 text-[clamp(2rem,10vw,4rem)]">03</p>
-    <h1 id="skills-heading" class="font-display text-[clamp(2rem,10vw,4rem)] leading-none mb-4 text-[#fffdf1]">
+    <p class="heading-section mb-2 text-[clamp(2rem,10vw,4rem)] proj_fly_l">03</p>
+    <h1 id="skills-heading" class="font-display text-[clamp(2rem,10vw,4rem)] leading-none mb-4 text-[#fffdf1] proj_fly_l">
       My Projects
     </h1>
-    <p class="text-[#fffdf1] font-semibold text-base sm:text-lg">
+    <p class="text-[#fffdf1] font-semibold text-base sm:text-lg proj_fly_r anton">
       Things I have worked on
     </p>
   </header>
@@ -818,11 +818,15 @@
 
 
 
-
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
 
   <script src="./assets/scripts/tilt.js"></script>
   <script src="./assets/scripts/parallax.js"></script>
   <script src="./assets/scripts/cursor.js"></script>
+  <script src="./assets/scripts/gsap-hero.js"></script>
+  <script src="./assets/scripts/gsap-trans.js"></script>
+  <script src="./assets/scripts/gsap-about.js"></script>
 
   <!-- Contact form: sends email via FormSubmit (no backend required) -->
   <script>
