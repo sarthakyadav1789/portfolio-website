@@ -478,6 +478,9 @@
   .w-\[5vw\] {
     width: 5vw;
   }
+  .w-\[80vw\] {
+    width: 80vw;
+  }
   .w-\[100vw\] {
     width: 100vw;
   }
@@ -489,6 +492,9 @@
   }
   .w-md {
     width: var(--container-md);
+  }
+  .w-sm {
+    width: var(--container-sm);
   }
   .max-w-4xl {
     max-width: var(--container-4xl);
@@ -1431,6 +1437,9 @@
     .md\:h-\[120vh\] {
       height: 120vh;
     }
+    .md\:w-md {
+      width: var(--container-md);
+    }
     .md\:scale-\[2\] {
       scale: 2;
     }
@@ -1474,6 +1483,12 @@
     }
     .lg\:w-\[60\%\] {
       width: 60%;
+    }
+    .lg\:w-md {
+      width: var(--container-md);
+    }
+    .lg\:max-w-sm {
+      max-width: var(--container-sm);
     }
     .lg\:scale-\[2\] {
       scale: 2;
