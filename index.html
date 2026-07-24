@@ -10,7 +10,7 @@
 
 <body class="bg-void text-[#fffdf1] antialiased">
 
-  <section id="home" class="relative h-[120vh] w-full overflow-hidden exit">
+  <section id="home" class="relative lg:h-[120vh] md:h-[120vh] min-h-full overflow-hidden exit">
 
     <!-- Background atmosphere -->
     <div class="absolute inset-0 -z-20 bg-cover bg-center opacity-100"
@@ -21,7 +21,7 @@
     <!-- Monolith: absolutely positioned so it is never squeezed by the text columns -->
 
     <img src="./assets/imgs/Obelisk.png" alt="" aria-hidden="true"
-      class="fade hero-image absolute left-[calc(50%+70px)] top-[-50px] -z-10 h-[78vh] min-h-[420px] w-auto max-w-none -translate-x-1/2 opacity-95 sm:h-[85vh] lg:h-[92vh] scale-[2]" />
+      class="fade hero-image absolute lg:left-[calc(50%+70px)] md:left-[calc(50%+70px)] top-[-50px] -z-10 h-[78vh] min-h-[420px] w-auto max-w-none -translate-x-1/2 opacity-95 sm:h-[85vh] lg:h-[92vh] sm:scale-[1.6] md:scale-[2] lg:scale-[2] left-1/2" />
 
     <header class="relative z-10">
       <nav aria-label="Primary"
@@ -111,7 +111,7 @@
           <img src="./assets/imgs/my-img-2.png" alt="Portrait of Sarthak Yadav" class="abt-fade-up my-img relative z-0 pointer-events-none max-w-full h-auto" />
 
           <!-- Description card overlapping photo -->
-          <div class="relative z-10 -mt-12 ml-50 w-md rounded-xl p-5 glass tilt">
+          <div class="relative z-10 lg:ml-50 md:ml-50 -mt-12 ml-0 w-md rounded-xl p-5 glass tilt">
             <p class="max-w-sm text-sm leading-relaxed sm:text-[0.95rem] nata">
               I'm Sarthak Yadav, an engineering student who enjoys turning ideas into intelligent software, embedded systems, and immersive digital experiences.
             </p>
